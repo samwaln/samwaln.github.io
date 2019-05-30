@@ -1,11 +1,17 @@
 body{
-  background-color: #dcd0ff;
+  /*background-image: url("BrooklynBeach.JPG");*/
+  background-color: #dcd0ff
+  background-size: cover;
+  font-family: Calibri, serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-h1 {
+header {
   color: #ffffff;
   text-align: center;
-  font-family: Calibri, sans-serif;
+  background-color: #8aacbf;
+  font-size: 1.8em;
 }
 
 h3 {
@@ -13,5 +19,50 @@ h3 {
 }
 
 p {
-  font-family: Calibri;
+
+}
+
+img#profile {
+  height: 250px;
+}
+
+img#bg {
+
+  background-image: url("img_girl.jpg");
+
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  opacity: 0.1;
+}
+
+li {
+  padding-left: 40px;
+}
+
+li#last-child {
+  padding-right: 0px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  text-align: center;
+  min-width: 696px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul#horizontal-list li {
+  display: inline;
 }
