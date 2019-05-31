@@ -20,6 +20,24 @@ h3 {
 
 p {
   color: #0a0a0a;
+  text-align: justify;
+}
+
+section#left-col {
+  width: 49%;
+  float: left;
+}
+
+section#right-col {
+  width: 49%;
+  float: right;
+  clear: right;
+}
+
+section.full-width {
+  width: 100%;
+  float: none;
+  clear: right;
 }
 
 header img {
@@ -47,18 +65,18 @@ li {
   padding-left: 40px;
 }
 
-li#last-child {
-  padding-right: 0px;
+li.first-child {
+  padding-left: 0px;
 }
 
-ul#horizontal-list {
+ul.horizontal-list {
   text-align: center;
   min-width: 696px;
   list-style: none;
   padding-left: 0px;
 }
 
-ul#horizontal-list li {
+ul.horizontal-list li {
   display: inline;
 }
 
