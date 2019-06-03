@@ -91,3 +91,12 @@ ul.horizontal-list li {
 a:visited {
   color: gray;
 }
+
+button#prev-button {
+  float: left;
+}
+
+button#next-button {
+  float: right;
+  clear: right;
+}

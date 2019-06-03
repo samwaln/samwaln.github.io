@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <title>Samantha Waln</title>
 <link rel="stylesheet" href="personal.css">
+<script src="project_functions.js">
+</script>
 </head>
 <body>
 <header role="banner">
@@ -30,7 +32,9 @@
           </p>
         </section>
         <h2>Current Projects</h2>
-        <section class="left-col">
+        <!-- <button onclick="changeProjectPrev();"> << </button>
+        <button onclick="changeProjectNext();"> >> </button> -->
+        <section class="left-col" id="change-color-left">
           <h3>Wearable Technology VIP</h3>
           <p>
             I am currently part of the Wearable Technology VIP team at Tandon where we are looking at ways
@@ -40,7 +44,7 @@
             when a heartbeat is sensed and can be used to determine blood glucose levels.
           </p>
         </section>
-        <section class="right-col">
+        <section class="right-col" id="change-color-right">
           <h3>Senior Design</h3>
           <p>
             For our Senior Design project, we are building a multi-platform application to connect people who want
